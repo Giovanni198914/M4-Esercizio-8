@@ -1,7 +1,7 @@
 async function getProducts() {
   const response = await fetch("https://striveschool-api.herokuapp.com/api/product", {
     headers: {
-      "Authorization": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJfaWQiOiI2NTJjNDJkZTFjMGFiNzAwMTgxNGJjMDgiLCJpYXQiOjE2OTczOTk1MTgsImV4cCI6MTY5ODYwOTExOH0.dQzFGjft8QtGEsIAkT2_gC2J8ldcM2J5FaC_Qif9e_0"
+      "Authorization": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJfaWQiOiI2NTM4NDIyNjc3Y2RhYTAwMTQ2ZGYzYmUiLCJpYXQiOjE2OTgxODU3NjYsImV4cCI6MTY5OTM5NTM2Nn0.aov05XFNgy-2KNGAmWOusPTxn1NC7XM2hT3khImchrQ"
     }
   });
   const data = await response.json();
